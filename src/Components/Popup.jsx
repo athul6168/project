@@ -46,8 +46,8 @@ const senddata=(e)=>{
         </div>
         </div>
         </form>
-        <div>
-        <select onChange={(e)=>{setSelectarray([...Selectarray,e.target.value])}}>
+        <div >
+        <select className='list'onChange={(e)=>{setSelectarray([...Selectarray,e.target.value])}}>
                 <option>select</option>
                 <option value="Telivision">Telivision</option>
                 <option value="Air Condition">Air Condition</option>
