@@ -1,0 +1,17 @@
+.data{
+    display:grid;
+    grid-template-columns: 15fr 10fr 2fr;
+    border:1px solid rgb(196,196,196);
+    padding: 13px;
+}
+.btn{
+    padding: 2px;
+    width: 73px;
+    margin-right: 61px;
+
+
+}
+.user{
+    margin-left: 16px;
+
+}

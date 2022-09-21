@@ -1,0 +1,111 @@
+.bookingtable-head{
+    
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.butn{
+    margin-top: 5px;
+}
+.bookinginput{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.bookinginput2{
+    margin-left: 20px;
+}
+
+.bookingbtn{
+    margin-left: 20px;
+}
+input{
+    height: 30px;
+    border-radius: 6px;
+    width: 65%;
+}
+
+.bookingtable-heading{
+    
+    background-color: white;
+    border: 1px solid rgb(107, 103, 103,0.1);
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    justify-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 26px;
+    padding: 10px;
+    
+}
+.booking-table-data{
+    border: 1px solid rgb(107, 103, 103,0.1);
+   
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    justify-items: center;
+    padding: 10px;
+}
+.bookingtable-main{
+    background-color: rgb(196,196,196);
+    width: 100%;
+    
+    border-radius: 13px;
+    height: 500px;
+}
+
+
+.bookingtable-row{
+    background-color: white;
+    /* overflow-y: scroll; */
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+.bookingbtn1{
+    
+    
+    background-color:rgb(196,196,196);
+
+    margin-right: 8px;
+    margin-top: 20px;
+}
+.book{
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+button{
+    border: none;
+}
+@media only screen and (max-width: 750px) {
+    .bookingtable-main {
+        margin-top: -3px;
+        font-size: small;
+        width: 99%;
+        height: px;
+        height: 160%;
+        margin-left: 1px;
+    }
+    .bookingtable-row{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .link {
+        display: block;
+    }
+}
+@media only screen and (max-width: 500px) {
+.bookingtable-heading,.bookingtable-row,.booking-table-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    
+}
+}

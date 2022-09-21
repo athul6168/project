@@ -1,0 +1,140 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.leftnav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+
+}
+
+.img{
+    height: 55px;
+   
+}
+.option_nav{
+    text-decoration: none;
+}
+.booking{
+    font-weight: bold;
+   
+}
+.logo{
+    height: 20px;
+}
+.rightnav{
+    display: flex;
+    align-items: center;
+    
+} 
+.admlogo{
+    display: flex;
+    gap: 10px;
+    
+}     
+.active_nav{
+    color:orange ;
+    /* border-bottom:2px solid orange; */
+    border-top: none;
+}
+
+ .link,.active{
+    border-top: none;
+    height: 20px;
+    text-decoration: none;
+    
+}
+.link{
+    text-decoration: none;
+}
+.menu{
+    display: none;
+}
+/* .option{
+    
+} */
+/* .menu{
+    display:none;
+}
+.burg{
+    display: none;
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .img{
+        height: 25px;
+    }
+    .booking{
+        font-size: small;
+       
+    }
+    .leftnav{
+        font-size: small;
+
+    }
+  }
+@media only screen and (max-width: 500px){
+    .option{
+        display: none;
+    }
+   .rightnav{
+        display: none;
+    }
+    .link,.option_nav{
+        display: none ;
+    }
+
+}
+@media only screen and (max-width: 500px){
+    .link1{
+        display: block;
+        
+        
+    }
+    .menu{
+        
+        display: block;
+    }
+    .link{
+        display: none;
+    }
+}
+@media only screen and (max-width: 350px){
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+    .rightnav{
+        display: none;
+    }
+    
+}

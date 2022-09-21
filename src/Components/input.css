@@ -1,0 +1,75 @@
+.box-one{
+    margin-top: 10px;
+    font-weight: bold;
+    display: flex;
+    
+}
+  .cross{
+    margin-left: 67%;
+    color: orange;
+  }
+  
+  
+
+.inputbox{
+    margin-top: 151px;
+    margin-left: 10px;
+    padding: 10px;
+    height: 387pxpx;
+    width: 500px;
+    border: 1px solid rgb(107, 103, 103);
+    border-radius: 15px;
+    background-color:rgb(242, 246, 246);
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    height: 80%;
+
+}
+.name{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.box-one{
+
+
+}
+.save{
+    margin-top: 10px;
+    display: flex;
+}
+@media only screen and (max-width: 500px){
+    .option,.active_nav,.active{
+        display: none;
+    }
+}
+/* @media only screen and (max-width: 750px) {
+    .inputbox{
+        margin-top: 150px;
+        font-size: small;
+        width: 225px;
+        height: 290px;
+    }
+} */
+@media only screen and (max-width: 750px) {
+    .inputbox {
+        margin-top: 112px;
+        font-size: small;
+        width: 300px;
+        height: px;
+        height: 400px;
+        margin-left: -23px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .inputbox {
+        margin-top: 112px;
+        font-size: small;
+        width: 246px;
+        height: px;
+        height: 350px;
+        margin-left: -33px;
+    }
+}
