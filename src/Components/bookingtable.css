@@ -74,6 +74,8 @@ input{
     margin-right: 8px;
     margin-top: 20px;
 }
+
+
 .book{
     margin-top: 20px;
     font-size: xx-large;
@@ -100,12 +102,30 @@ button{
         display: block;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 300px) {
 .bookingtable-heading,.bookingtable-row,.booking-table-data{
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: scroll;
+    
     
 }
 }
+@media only screen and (max-width: 300px) {
+    .bookingtable-heading{
+      
+        height: 95px;
+        
+    }
+    .bookingtable-main{
+        height: 140vh;
+    }
+   
+    .bookingtable-row{
+        height: 100vh;
+    }
+    input{
+
+    }
+    }
+    

@@ -30,13 +30,26 @@
 .deatiles{
     
    
-    border: 1px solid rgb(107, 103, 103,0.1);
+    /* border: 1px solid rgb(107, 103, 103,0.1);
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
     justify-items: center;
     padding: 20px;
-    
+     */
+     background-color: white;
+     border-radius: 5px;
+     padding: 20px;
+     display: grid;
+     grid-template-columns: 2fr 2fr 2fr 2fr;
+     justify-items: center;
 
+}
+.editicon{
+    display: flex;
+    margin-left: 29px;
+    gap: 20px
+;
+    
 }
 .row{
     background-color: white;

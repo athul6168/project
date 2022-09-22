@@ -2,7 +2,7 @@
     margin-left: 20px;
 margin-top: 20px;
 padding: 15px;
-height:60%;
+height:90vh;
 width: 80%;
 margin-left: 91px;
 border: 1px solid rgb(107, 103, 103);
@@ -10,6 +10,7 @@ border-radius: 15px;
 background-color:  rgb(196,196,196);
 }
 .head{
+    
     font-weight: bolder;
     margin-left: 20px;
 }
@@ -37,8 +38,12 @@ background-color:  rgb(196,196,196);
         margin-left: 39px;
     }
 }
-@media only screen and (max-width: 500px){
+.finalbtn{
+    display: flex;
+    justify-content: flex-start;
+}
+/* @media only screen and (max-width: 500px){
     .option,.active_nav,.link{
         display: none;
     }
-}
+} */

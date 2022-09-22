@@ -4,8 +4,8 @@ import '../Components/Navbar.css'
 import Buttonpopup from './Buttonpopup';
 
 const Navbar = () => {
-const [Navigation, setNavigation] = useState('')
-console.log(Navigation);
+// const [Navigation, setNavigation] = useState('')
+// console.log(Navigation);
 const [burger, setBurger] = useState(false)
 
 
@@ -19,12 +19,12 @@ const [burger, setBurger] = useState(false)
         <div className='option_nav'> 
         
         
-          <NavLink to="/" classname="link"style={({isActive})=>({color:isActive ?'orange':'black'})}>Home</NavLink></div>
+          <NavLink to="/" className="a_link"style={({isActive})=>({color:isActive ?'orange':'black'})}>Home</NavLink></div>
         <div >
-        <NavLink to='/Room' className='link'style={({isActive})=>({color:isActive ?'orange':'black'})}>Room</NavLink></div>
+        <NavLink to='/Room' className="a_link"style={({isActive})=>({color:isActive ?'orange':'black'})}>Room</NavLink></div>
           
         <div >
-        <NavLink to='/Booking' className='link'style={({isActive})=>({color:isActive ?'orange':'black',textDecoration:'none',})}>Booking</NavLink></div>
+        <NavLink to='/Booking' className="a_link"style={({isActive})=>({color:isActive ?'orange':'black'})}>Booking</NavLink></div>
         </div>
         
         <div className='rightnav'>

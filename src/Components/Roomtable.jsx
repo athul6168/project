@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import Button from '../Components/Button'
 import'../Components/Roomtable.css'
+import Editicon from './Editicon'
 import Popup from './Popup'
+
 const Roomtable = ({btn_text,data}) => {
 const [addroom,setaddroom] = useState(false)
 function poproom(){
@@ -42,7 +44,8 @@ function poproom(){
                 <div style={{color:'orange'}}>{data.no}</div>
                 <div >{data.ac}</div>
                 <div>{data.cc}</div>
-                <div style={{color:'orange'}} >{data.pr}</div>
+                <div className='editicon' style={{color:'orange'}} >{data.pr}<Editicon/></div>
+                
               </div>
             )
           })}
