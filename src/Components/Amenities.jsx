@@ -2,7 +2,7 @@ import React from 'react'
 import '../Components/Aminities.css'
 
 
-const Amenities = ({data,select,index,Selectarray}) => {
+const Amenities = ({data,Selectarray,index,setSelectarray}) => {
 
   return (
     <div className='rountlabel'>
@@ -14,8 +14,8 @@ const Amenities = ({data,select,index,Selectarray}) => {
     <svg 
     style={{cursor:'pointer'}}
     onClick={()=>{
-        Selectarray(
-            select.filter((item,itemindex)=>{
+      setSelectarray(
+        Selectarray.filter((item,itemindex)=>{
                 return itemindex !== index;
             })
         )

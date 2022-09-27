@@ -1,0 +1,20 @@
+{
+  "rooms": [
+    {
+      "roomNumber": "110",
+      "adultCapacity": "1",
+      "childCapacity": "1",
+      "price": "2000",
+      "amenities": [],
+      "id": 1
+    },
+    {
+      "roomNumber": "6",
+      "adultCapacity": "2",
+      "childCapacity": "3",
+      "price": "1000",
+      "amenities": [],
+      "id": 2
+    }
+  ]
+}

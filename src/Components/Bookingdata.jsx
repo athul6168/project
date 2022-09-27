@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Components/bookingtable.css'
 import Button from './Button'
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 
 
 const Bookingdata= ({text,data}) => {

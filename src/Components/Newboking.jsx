@@ -51,7 +51,7 @@ function Availablefn(){
         <Button color='white' text='GET AVALIBLE ROM'back='#d7ae63' padding="5px"widt= '102px'functionality={Availablefn}/> 
         { Available &&
             <div>
-               <Button color='#d7ae63' text='BOOK ROOM'back='rgb(196,196,196)' padding="5px"widt= '102px'functionality={()=>{setBook(!Book)}}/> 
+               <Button color='#d7ae63' text='BOOK ROOM'back='rgb(196,196,196) ' padding="5px"widt= '102px'functionality={()=>{setBook(!Book)}}/> 
                <Button color='#d7ae63' text='BACK'back='rgb(196,196,196)' padding="5px"widt= '102px'functionality={Backclick}/> </div>}
         
        
